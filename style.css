@@ -1,1 +1,28 @@
+.flexbox {
+    display:flex;
+    border:2px solid pink;
+    padding: 20px;
+}
 
+.item {
+    border: 2px solid rgba(150, 215, 255, 0.676);
+    padding: 20px;
+}
+
+#box1 {
+    justify-content: space-evenly;
+    background: rgb(247, 232, 19)
+}
+
+#box2, #box3, #box4 {
+    justify-content: center;
+}
+
+#box3 {
+    background: #fbf789
+}
+
+#innerbox4 {
+    justify-content: space-evenly;
+    background: whitesmoke
+}
